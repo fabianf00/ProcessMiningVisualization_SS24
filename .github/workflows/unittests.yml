@@ -1,17 +1,11 @@
-name: Run Unit Tests
+name: Unit Tests
 
 on:
   push:
     branches: [ master ]
-    paths:
-      - "tests/**"
-      - "app/**"
 
   pull_request:
     branches: [ master ]
-    paths:
-      - "tests/**"
-      - "app/**"
 
 jobs:
   tests:
